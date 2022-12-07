@@ -12,8 +12,8 @@ public class Account {
         }
     }
     public static void main(String[] args) {
-        Account sbi = new Account();    // creating the instance of Account class
-        sbi.accountBalance = 25000;   // assigning value to instance variable.
+        Account sbi = new Account();       // creating the instance of Account class
+        sbi.accountBalance = 25000;        // assigning value to instance variable.
         sbi.debitFromBalance(10000);
         sbi.debitFromBalance(20000);
     }

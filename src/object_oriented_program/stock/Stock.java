@@ -7,7 +7,7 @@ public class Stock {
        this.sharePrice = sharePrice;
        this.numberOfShares = numberOfShares;
     }
-    String stockName;
+    String stockName;           // instance variables
     double sharePrice;
     int numberOfShares;
     double totalSharePrice;
